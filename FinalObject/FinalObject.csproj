@@ -70,7 +70,37 @@
     <Content Include="CryFather.css" />
     <Content Include="FinalObject.aspx" />
     <Content Include="FinalObject1.aspx" />
+    <Content Include="fruit\Build\UnityLoader.js" />
+    <Content Include="fruit\fruit.aspx" />
+    <Content Include="fruit\index.html" />
+    <Content Include="fruit\TemplateData\favicon.ico" />
+    <Content Include="fruit\TemplateData\fullscreen.png" />
+    <Content Include="fruit\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="fruit\TemplateData\progressEmpty.Light.png" />
+    <Content Include="fruit\TemplateData\progressFull.Dark.png" />
+    <Content Include="fruit\TemplateData\progressFull.Light.png" />
+    <Content Include="fruit\TemplateData\progressLogo.Dark.png" />
+    <Content Include="fruit\TemplateData\progressLogo.Light.png" />
+    <Content Include="fruit\TemplateData\style.css" />
+    <Content Include="fruit\TemplateData\UnityProgress.js" />
+    <Content Include="fruit\TemplateData\webgl-logo.png" />
     <Content Include="Global.asax" />
+    <Content Include="Style1.css" />
+    <Content Include="test.aspx" />
+    <Content Include="UT1\Build\UnityLoader.js" />
+    <Content Include="UT1\index.html" />
+    <Content Include="UT1\TemplateData\favicon.ico" />
+    <Content Include="UT1\TemplateData\fullscreen.png" />
+    <Content Include="UT1\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="UT1\TemplateData\progressEmpty.Light.png" />
+    <Content Include="UT1\TemplateData\progressFull.Dark.png" />
+    <Content Include="UT1\TemplateData\progressFull.Light.png" />
+    <Content Include="UT1\TemplateData\progressLogo.Dark.png" />
+    <Content Include="UT1\TemplateData\progressLogo.Light.png" />
+    <Content Include="UT1\TemplateData\style.css" />
+    <Content Include="UT1\TemplateData\UnityProgress.js" />
+    <Content Include="UT1\TemplateData\webgl-logo.png" />
+    <Content Include="UT1\unity1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,13 +118,42 @@
     <Compile Include="FinalObject1.aspx.designer.cs">
       <DependentUpon>FinalObject1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="fruit\fruit.aspx.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fruit\fruit.aspx.designer.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UT1\unity1.aspx.cs">
+      <DependentUpon>unity1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UT1\unity1.aspx.designer.cs">
+      <DependentUpon>unity1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fruit\Build\fruit.data.unityweb" />
+    <Content Include="fruit\Build\fruit.json" />
+    <Content Include="fruit\Build\fruit.wasm.code.unityweb" />
+    <Content Include="fruit\Build\fruit.wasm.framework.unityweb" />
     <None Include="packages.config" />
+    <Content Include="UT1\Build\UT1.data.unityweb" />
+    <Content Include="UT1\Build\UT1.json" />
+    <Content Include="UT1\Build\UT1.wasm.code.unityweb" />
+    <Content Include="UT1\Build\UT1.wasm.framework.unityweb" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
