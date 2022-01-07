@@ -1,0 +1,24 @@
+﻿body {
+    color:black;
+    Background:bisque;
+}
+
+#form1 {
+    text-align: center;
+}
+
+.typesetting {
+    display: inline-block;
+    padding-top:200px;
+    width:250px;
+}
+
+.lkbutton {
+    color: gray;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.button {
+    color:black;
+    padding-top:100px;
+}
