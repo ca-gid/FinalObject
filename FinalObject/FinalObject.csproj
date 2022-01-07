@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FinalObject.aspx" />
+    <Content Include="FinalObject1.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="FinalObject.aspx.designer.cs">
       <DependentUpon>FinalObject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FinalObject1.aspx.cs">
+      <DependentUpon>FinalObject1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FinalObject1.aspx.designer.cs">
+      <DependentUpon>FinalObject1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
