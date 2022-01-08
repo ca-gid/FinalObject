@@ -25,6 +25,7 @@
         <div class="button">
             <asp:LinkButton ID="LinkButton4" runat="server" class="button" OnClick="LinkButton4_Click" PostBackUrl="~/FinalObject.aspx">遊戲回饋評價</asp:LinkButton>
         </div>
+        <br />
     </form>
 </body>
 </html>
