@@ -39,6 +39,7 @@
             </br>
             <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/test.aspx">返回遊戲選單</asp:LinkButton>
             <br />
+            <h1>123</h1>
             
             
              
