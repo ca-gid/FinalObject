@@ -71,6 +71,20 @@
     <Content Include="FinalObject.aspx" />
     <Content Include="FinalObject1.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GoDown.aspx" />
+    <Content Include="GoDown\Build\UnityLoader.js" />
+    <Content Include="GoDown\index.html" />
+    <Content Include="GoDown\TemplateData\favicon.ico" />
+    <Content Include="GoDown\TemplateData\fullscreen.png" />
+    <Content Include="GoDown\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="GoDown\TemplateData\progressEmpty.Light.png" />
+    <Content Include="GoDown\TemplateData\progressFull.Dark.png" />
+    <Content Include="GoDown\TemplateData\progressFull.Light.png" />
+    <Content Include="GoDown\TemplateData\progressLogo.Dark.png" />
+    <Content Include="GoDown\TemplateData\progressLogo.Light.png" />
+    <Content Include="GoDown\TemplateData\style.css" />
+    <Content Include="GoDown\TemplateData\UnityProgress.js" />
+    <Content Include="GoDown\TemplateData\webgl-logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,9 +105,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GoDown.aspx.cs">
+      <DependentUpon>GoDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoDown.aspx.designer.cs">
+      <DependentUpon>GoDown.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GoDown\Build\GoDown.data.unityweb" />
+    <Content Include="GoDown\Build\GoDown.json" />
+    <Content Include="GoDown\Build\GoDown.wasm.code.unityweb" />
+    <Content Include="GoDown\Build\GoDown.wasm.framework.unityweb" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
