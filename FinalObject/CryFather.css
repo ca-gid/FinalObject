@@ -1,5 +1,15 @@
-﻿.a {
-    background-color: azure;
-    margin-left:auto;
-    margin-right:auto;
+﻿
+body {
+    text-align: center;
+    background-color:azure;
+}
+
+#RadioButtonList1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rd_Des {
+    margin-left: auto;
+    margin-right: auto;
 }

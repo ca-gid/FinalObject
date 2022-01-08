@@ -10,7 +10,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="a">
             
             <h1>遊戲回饋評價</h1>
             <asp:Label ID="Label1" runat="server" Text="表單編號" Font-Size="X-Large"></asp:Label>
@@ -34,16 +33,14 @@
                 <asp:ListItem>是</asp:ListItem>
             </asp:RadioButtonList>
             <asp:TextBox ID="tb_Des" runat="server" Width="400px" Visible="False"></asp:TextBox>
-            </br>
+            <br />
             <asp:Button ID="btn_Submit" runat="server" Text="送出"  PostBackUrl="~/FinalObject1.aspx" />
-            </br>
+            <br />
             <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/test.aspx">返回遊戲選單</asp:LinkButton>
             <br />
             
             
-            
              
-        </div>
     </form>
 </body>
 </html>
