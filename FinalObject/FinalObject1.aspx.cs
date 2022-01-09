@@ -15,10 +15,12 @@ namespace FinalObject
             {
                 {
 
-                    lb_Msg.Text += Request.Form.Get("RadioButtonList1") + "<br />";
+                    lb_Msg.Text += "您所評價的為:"+Request.Form.Get("RadioButtonList1") + "<br />";
+                    lb_Msg.Text += "您的推薦指數為(數字越高遊戲越好):" + Request.Form.Get("RadioButtonList2") + "<br />";
                     lb_Msg.Text += "您的聯絡方式為:" + Request.Form.Get("tb_Number") + "<br />";
                     lb_Msg.Text += Request.Form.Get("rd_Des.SelectedValue");
-                    lb_Msg.Text += "您提供的建議為:" + Request.Form.Get("tb_Des");
+                    lb_Msg.Text += "您提供的建議為:" + Request.Form.Get("tb_Des") + "<br />";
+                    lb_Msg.Text += "謝謝您的評價";
                 }
             }
         }

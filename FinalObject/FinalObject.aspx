@@ -20,6 +20,14 @@
                 <asp:ListItem>FruitRain</asp:ListItem>
                 <asp:ListItem>GoDownStairs</asp:ListItem>
             </asp:RadioButtonList>
+        <asp:Label ID="Label3" runat="server" Text="Label" Font-Size="X-Large">遊戲評分(數字越高遊戲越好)</asp:Label>
+        <asp:RadioButtonList ID="RadioButtonList2" runat="server" AutoPostBack="True" RepeatDirection="Horizontal">
+                <asp:ListItem Value="1">1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
+                <asp:ListItem>5</asp:ListItem>
+            </asp:RadioButtonList>
             <asp:Label ID="Label2" runat="server" Text="聯絡方式" Font-Size="X-Large"></asp:Label>
             <asp:DropDownList ID="dd1_Type" runat="server" AutoPostBack="True" OnSelectedIndexChanged="dd1_Type_SelectedIndexChanged">
                 <asp:ListItem>手機</asp:ListItem>
