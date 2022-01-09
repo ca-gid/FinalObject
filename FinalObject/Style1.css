@@ -1,6 +1,6 @@
 ﻿body {
-    color:black;
-    Background:bisque;
+    color: black;
+    background-color: azure;
 }
 
 #form1 {
@@ -17,8 +17,15 @@
     color: gray;
     text-align: center;
     margin-bottom: 50px;
+    text-decoration:none;
 }
+
+.lkbutton:hover {
+    color:darkblue;
+}
+
 .button {
-    color:black;
-    padding-top:100px;
+    color: black;
+    padding-top: 100px;
+    text-decoration: none;
 }

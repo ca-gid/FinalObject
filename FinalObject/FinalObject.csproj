@@ -84,6 +84,9 @@
     <Content Include="fruit\TemplateData\style.css" />
     <Content Include="fruit\TemplateData\UnityProgress.js" />
     <Content Include="fruit\TemplateData\webgl-logo.png" />
+    <Content Include="game_1.PNG" />
+    <Content Include="game_2.PNG" />
+    <Content Include="game_3.PNG" />
     <Content Include="Global.asax" />
     <Content Include="Style1.css" />
     <Content Include="test.aspx" />
@@ -145,15 +148,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fruit\Build\fruit.data.unityweb" />
-    <Content Include="fruit\Build\fruit.json" />
-    <Content Include="fruit\Build\fruit.wasm.code.unityweb" />
-    <Content Include="fruit\Build\fruit.wasm.framework.unityweb" />
+    <Content Include="fruit\Build\friut.data.unityweb" />
+    <Content Include="fruit\Build\friut.json" />
+    <Content Include="fruit\Build\friut.wasm.code.unityweb" />
+    <Content Include="fruit\Build\friut.wasm.framework.unityweb" />
     <None Include="packages.config" />
-    <Content Include="UT1\Build\UT1.data.unityweb" />
-    <Content Include="UT1\Build\UT1.json" />
-    <Content Include="UT1\Build\UT1.wasm.code.unityweb" />
-    <Content Include="UT1\Build\UT1.wasm.framework.unityweb" />
+    <Content Include="UT1\Build\Mario.data.unityweb" />
+    <Content Include="UT1\Build\Mario.json" />
+    <Content Include="UT1\Build\Mario.wasm.code.unityweb" />
+    <Content Include="UT1\Build\Mario.wasm.framework.unityweb" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
