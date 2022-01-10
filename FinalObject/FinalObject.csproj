@@ -184,6 +184,7 @@
     <Content Include="UT1\Build\Mario.json" />
     <Content Include="UT1\Build\Mario.wasm.code.unityweb" />
     <Content Include="UT1\Build\Mario.wasm.framework.unityweb" />
+    <Content Include="Schedule.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
