@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace FinalObject
+namespace FinalObject.GoDown
 {
     public partial class GoDown : System.Web.UI.Page
     {

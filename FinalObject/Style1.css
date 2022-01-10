@@ -33,3 +33,15 @@
 .button:hover {
     color: gray;
 }
+
+#Label1 {
+    color: gray;
+    padding-top: 20px;
+    position: absolute;
+    left: 150px;
+}
+
+#Image1 {
+    position: absolute;
+    left: 30px;
+}

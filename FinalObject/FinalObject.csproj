@@ -70,6 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="console.png" />
     <Content Include="CryFather.css" />
     <Content Include="FinalObject.aspx" />
     <Content Include="FinalObject1.aspx" />
@@ -92,6 +93,7 @@
     <Content Include="game_3.PNG" />
     <Content Include="Global.asax" />
     <Content Include="GoDown\Build\UnityLoader.js" />
+    <Content Include="GoDown\GoDown.aspx" />
     <Content Include="GoDown\index.html" />
     <Content Include="GoDown\TemplateData\favicon.ico" />
     <Content Include="GoDown\TemplateData\fullscreen.png" />
@@ -147,11 +149,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="GoDown.aspx.cs">
+    <Compile Include="GoDown\GoDown.aspx.cs">
       <DependentUpon>GoDown.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GoDown.aspx.designer.cs">
+    <Compile Include="GoDown\GoDown.aspx.designer.cs">
       <DependentUpon>GoDown.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

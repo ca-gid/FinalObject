@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="style1.css" />
 </head>
 <body>
+    <asp:Image ID="Image1" runat="server" Height="100px" ImageUrl="~/console.png" Width="100px" />
+    <asp:Label ID="Label1" runat="server" Text="光頭小馬的遊戲天堂"></asp:Label><br />
     <form id="form1" runat="server" class="row">
         <div class="typesetting col-md-4 col-12">
             <asp:ImageButton ID="ImageButton1" runat="server" Height="250px" Width="250px" class="lkbutton" PostBackUrl="~/UT1/unity1.aspx" ImageUrl="~/game_1.PNG"/><br/>
@@ -19,8 +21,8 @@
             <asp:LinkButton ID="LinkButton2" runat="server" class="lkbutton" PostBackUrl="~/fruit/fruit.aspx" Width="200px"><h2>Fruit Rain</h2></asp:LinkButton>
         </div>
         <div class="typesetting col-md-4 col-12">
-            <asp:ImageButton ID="ImageButton3" runat="server" Height="250px" Width="250px" class="lkbutton" ImageUrl="~/game_3.PNG"/><br/>
-            <asp:LinkButton ID="LinkButton3" runat="server" class="lkbutton " Width="200px"><h2>GoDownStairs</h2></asp:LinkButton>
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="250px" Width="250px" class="lkbutton" ImageUrl="~/game_3.PNG" PostBackUrl="~/GoDown/GoDown.aspx"/><br/>
+            <asp:LinkButton ID="LinkButton3" runat="server" class="lkbutton " Width="200px" PostBackUrl="~/GoDown/GoDown.aspx"><h2>GoDownStairs</h2></asp:LinkButton>
         </div>
         <div class="button">
             <asp:LinkButton ID="LinkButton4" runat="server" class="button" OnClick="LinkButton4_Click" PostBackUrl="~/FinalObject.aspx"><h1>遊戲回饋評價</h1></asp:LinkButton>

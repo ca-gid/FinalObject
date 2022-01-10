@@ -1,18 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="unity1.aspx.cs" Inherits="Final.UT1.unity1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GoDown.aspx.cs" Inherits="FinalObject.GoDown.GoDown" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Super Mario</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <link rel="stylesheet" href="TemplateData/style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8"/>
+    <title>GoDownStairs</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico"/>
+    <link rel="stylesheet" href="TemplateData/style.css"/>
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Mario.json", { onProgress: UnityProgress });
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/GoDown.json", { onProgress: UnityProgress });
     </script>
 </head>
 <body>
@@ -24,5 +24,5 @@
          </div>
     </div>
      </form>
-  </body>
+</body>
 </html>
