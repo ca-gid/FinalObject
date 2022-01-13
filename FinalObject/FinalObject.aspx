@@ -44,7 +44,7 @@
             <br />
             <asp:Button ID="btn_Submit" runat="server" Text="送出"  PostBackUrl="~/FinalObject1.aspx" />
             <br />
-            <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/test.aspx">返回遊戲選單</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/index.aspx" Style="text-decoration:none;">返回遊戲選單</asp:LinkButton>
             <br />
             
             

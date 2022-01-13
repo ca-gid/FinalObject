@@ -20,7 +20,7 @@
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 550px"></div>
       <div class="footer" style="text-align:center;">
-        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/test.aspx" Style="text-decoration:none;">返回遊戲選單</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/index.aspx" Style="text-decoration:none;">返回遊戲選單</asp:LinkButton>
       </div>
     </div>
     </form>

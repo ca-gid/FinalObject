@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="test.aspx.cs" Inherits="Final.test" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Final.test" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
 </head>
 <body>
     <asp:Image ID="Image1" runat="server" Height="100px" ImageUrl="~/console.png" Width="100px" />
-    <asp:Label ID="Label1" runat="server" Text="光頭小馬的遊戲天堂"></asp:Label><br />
+    <h1><asp:Label ID="Label1" runat="server" Text="光頭小馬的遊戲天堂"></asp:Label></h1><br />
     <form id="form1" runat="server" class="row">
         <div class="typesetting col-md-4 col-12">
             <asp:ImageButton ID="ImageButton1" runat="server" Height="250px" Width="250px" class="lkbutton" PostBackUrl="~/UT1/unity1.aspx" ImageUrl="~/game_1.PNG"/><br/>

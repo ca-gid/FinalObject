@@ -107,7 +107,7 @@
     <Content Include="GoDown\TemplateData\UnityProgress.js" />
     <Content Include="GoDown\TemplateData\webgl-logo.png" />
     <Content Include="Style1.css" />
-    <Content Include="test.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="UT1\Build\UnityLoader.js" />
     <Content Include="UT1\index.html" />
     <Content Include="UT1\TemplateData\favicon.ico" />
@@ -157,12 +157,12 @@
       <DependentUpon>GoDown.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="UT1\unity1.aspx.cs">
       <DependentUpon>unity1.aspx</DependentUpon>
